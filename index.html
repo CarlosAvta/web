@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Clue - Prototipo</title>
+
+  <!-- Fuentes y estilos -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+  <!-- Header -->
+  
+  <main class="wrap">
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo"><img src="img/logo.png" alt="logo"></a>
+            <button class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menu">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#como-jugar">Como Jugar</a></li>
+                <li><a href="#sobre nosotros">Sobre nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-img">
+            <img src="img/Fondo.avif" alt="Banner principal" class="hero-img">
+        </div>
+    </section>
+
+    <!-- Nuevas ediciones -->
+    <section class="section" id="productos">
+      <h2>Nuevas ediciones</h2>
+      <div class="ediciones-grid">
+        <div class="card">
+          <img src="img/clue-photos-1.jpg" alt="Edición 1" class="card-img">
+          <div class="label">Clue Version Rick and Morty</div>
+        </div>
+        <div class="card">
+          <img src="img/clue-photos-2.jpg" alt="Edición 2" class="card-img">
+          <div class="label">Clue Version Espcape</div>
+        </div>
+        <div class="card">
+          <img src="img/clue-photos-3.jpg" alt="Edición 3" class="card-img">
+          <div class="label">Clue Version Scooby-Doo</div>
+        </div>
+        <div class="card">
+          <img src="img/clue-photos-4.jpg" alt="Edición 4" class="card-img">
+          <div class="label">Clue Version The Office</div>
+        </div>
+        <div class="card">
+          <img src="img/clue-photos-5.jpg" alt="Edición 5" class="card-img">
+          <div class="label">Clue Version The nightmare before christmas</div>
+        </div>
+        <div class="card">
+          <img src="img/clue-photos-6.jpg" alt="Edición 6" class="card-img">
+          <div class="label">Clue Version Harry Potter</div>
+        </div>
+        <div class="card">
+          <img src="img/clue-photos-7.jpg" alt="Edición 7" class="card-img">
+          <div class="label">Clue Version Game of Thrones</div>
+        </div>
+        <div class="card">
+          <img src="img/clue-photos-8.jpg" alt="Edición 8" class="card-img">
+          <div class="label">Clue Version Avatar</div>
+        </div>
+        <div class="card">
+          <img src="img/clue-photos-9.jpg" alt="Edición 9" class="card-img">
+          <div class="label">Clue Version Squismallows</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Acordeón -->
+    <section class="faq-wrap" id="como-jugar">
+      <div class="faq-title">¿Quieres aprender más?</div>
+      <div class="accordion">
+        <div class="acc-item">
+          <div class="acc-head" data-acc="1">
+            <h3>¿Cómo jugar?</h3>
+            <span>▾</span>
+          </div>
+          <div class="acc-body">
+            El objetivo principal es resolver un asesinato misterioso en una mansión.
+            Los jugadores se mueven por el tablero para deducir quién, dónde y con qué arma se cometió el crimen.
+            El primer jugador que haga la acusación correcta gana la partida.
+          </div>
+        </div>
+
+        <div class="acc-item">
+          <div class="acc-head" data-acc="2">
+            <h3>¿Qué contiene?</h3>
+            <span>▾</span>
+          </div>
+          <div class="acc-body">
+            Un juego de mesa de Clue clásico contiene los siguientes elementos esenciales:
+
+<ul>
+    <li><strong>Tablero:</strong> Representa la mansión donde ocurrió el asesinato, con varias habitaciones conectadas por pasillos.</li>
+    <li><strong>Peones de juego:</strong> Fichas que representan a los seis sospechosos del crimen:
+        <ul>
+            <li>Miss Scarlet (Rojo)</li>
+            <li>Coronel Mustard (Amarillo)</li>
+            <li>Mrs. Peacock (Azul)</li>
+            <li>Profesor Plum (Morado)</li>
+            <li>Mr. Green (Verde)</li>
+            <li>Mrs. White (Blanco)</li>
+        </ul>
+    </li>
+    <li><strong>Armas de juguete:</strong> Seis réplicas en miniatura de los posibles armas del crimen:
+        <ul>
+            <li>Cuerda</li>
+            <li>Tubo de plomo</li>
+            <li>Candelabro</li>
+            <li>Daga</li>
+            <li>Llave inglesa</li>
+            <li>Revólver</li>
+        </ul>
+    </li>
+    <li><strong>Cartas:</strong> Tres mazos de cartas para representar la posible solución:
+        <ul>
+            <li>Cartas de sospechosos</li>
+            <li>Cartas de armas</li>
+            <li>Cartas de habitaciones</li>
+        </ul>
+    </li>
+    <li><strong>Sobre confidencial:</strong> Un sobre amarillo o negro donde se guardan las tres cartas que revelan la solución al misterio.</li>
+    <li><strong>Hojas de notas de detective:</strong> Pequeños blocs de papel para que cada jugador anote qué sospechosos, armas y habitaciones ha descartado.</li>
+</ul>
+          </div>
+        </div>
+
+        <div class="acc-item">
+          <div class="acc-head" data-acc="3">
+            <h3>¿Qué tiene de diferente cada edición?</h3>
+            <span>▾</span>
+          </div>
+          <div class="acc-body">
+            <p>Las diferentes ediciones de Clue varían principalmente en su temática, el diseño de los componentes y las reglas de juego adicionales. 
+                Aunque el objetivo central (resolver un asesinato mediante deducción) se mantiene, las versiones más modernas ofrecen una experiencia más compleja y adaptada a distintos gustos.
+        </p>
+        <p>
+            Las ediciones temáticas adaptan el juego a universos populares como Harry Potter, Game of Thrones o Los Simpson, cambiando los personajes, escenarios y armas para encajar con la franquicia. 
+            Por otro lado, las ediciones especiales se centran en la calidad, usando materiales más lujosos como armas bañadas en oro o peones más detallados, como en la versión de 2023.
+        </p>
+        <p>
+            Los reglas adicionales ofrecen una variedad más allá del formato clásico. 
+            Algunas versiones incluyen cartas de intriga que dan habilidades especiales a los jugadores o modifican la partida, haciendo el juego más estratégico.
+             Otras ediciones, como Clue Escape, transforman la experiencia en un juego cooperativo tipo escape room.
+        </p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre nosotros -->
+    <section class="about" id="sobre nosotros">
+      <h2>Sobre nosotros</h2>
+      <p>Nacimos en la oscuridad de la Segunda Guerra Mundial, concebidos por Anthony E. Pratt como una forma de escape y entretenimiento durante los apagones. Nuestro propósito es recrear la emoción de resolver un misterio de asesinato en un juego de mesa inspirado en las fiestas de intriga de la época.</p>
+    <div class="photo">
+      <img class="photo" src="img/Antony.jpg" alt="Foto sobre nosotros">
+    </div>
+      <p>Hoy, seguimos invitando a jugadores de todo el mundo a convertirse en detectives, uniendo lógica y diversión para descubrir quién, dónde y con qué se cometió el crimen. Somos un legado del ingenio humano, transformando la oscuridad en la luz de un buen misterio.</p>
+    </section>
+
+    <!-- Formulario -->
+    <section class="contact" id="contacto">
+      <h3>Mándanos un mensaje</h3>
+      <form class="form-grid" onsubmit="event.preventDefault(); alert('Mensaje enviado');">
+        <div>
+          <label for="fname">Nombre</label>
+          <input id="fname" type="text" placeholder="Tu nombre">
+        </div>
+        <div>
+          <label for="lname">Apellido</label>
+          <input id="lname" type="text" placeholder="Tu apellido">
+        </div>
+        <div class="full">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="email@example.com">
+        </div>
+        <div class="full">
+          <label for="msg">Mensaje</label>
+          <textarea id="msg" placeholder="Escribe tu mensaje.."></textarea>
+        </div>
+        <div class="full" style="text-align:center">
+          <button class="btn" type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+    <footer id="footer">
+        <img src="img/logo.png" alt="logo">
+      <p>&copy; 2023 Mundo Clue. Todos los derechos reservados.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
