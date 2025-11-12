@@ -35,3 +35,7 @@ function updateParallax() {
  
     updateParallax();
 });
+
+            document.getElementById('accept-btn').addEventListener('click', function() {
+            document.getElementById('cookie-banner').style.display = 'none';
+        });
